@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateBranchActivity">
+
+    <EditText
+        android:id="@+id/branch_update_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Branch Code"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/branch_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint=" Branch Name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/branch_update_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint=" Branch Address"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/branch_update_prefix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint=" Branch Prefix"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/branch_update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</LinearLayout>
